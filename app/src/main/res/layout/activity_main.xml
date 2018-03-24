@@ -16,8 +16,9 @@
         android:layout_height="match_parent"
         android:background="@color/white"
         app:itemTextColor="@color/darkgray"
-        app:itemIconTint="@color/darkgray"
-        >
+        app:itemIconTint="@color/darkgray">
+
+        <!--4:44-->
 
 
     </android.support.design.widget.NavigationView>
