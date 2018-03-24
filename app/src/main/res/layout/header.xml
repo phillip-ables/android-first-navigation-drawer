@@ -3,7 +3,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="160dp">
+    android:layout_height="160dp"
+    android:background="@drawable/header"
+    android:padding="20dp">
 
+    <ImageView
+        android:src="@drawable/selfie"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vincent V. Gogh"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    
 
 </LinearLayout>
