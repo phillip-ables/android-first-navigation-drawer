@@ -5,10 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
     tools:context="com.example.techtron.drawerlayout.MainActivity">
 
     <android.support.design.widget.NavigationView
@@ -16,9 +12,10 @@
         android:layout_height="match_parent"
         android:background="@color/white"
         app:itemTextColor="@color/darkgray"
-        app:itemIconTint="@color/darkgray">
+        app:itemIconTint="@color/darkgray"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start">
 
-        <!--4:44-->
 
 
     </android.support.design.widget.NavigationView>
