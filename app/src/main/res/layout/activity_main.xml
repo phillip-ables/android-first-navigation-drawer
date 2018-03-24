@@ -6,6 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.techtron.drawerlayout.MainActivity">
+    
+    <LinearLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
 
     <android.support.design.widget.NavigationView
         app:headerLayout="@layout/header"
